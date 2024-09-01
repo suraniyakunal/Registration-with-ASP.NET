@@ -1,13 +1,9 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: #164A41;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -26,5 +22,28 @@ textarea {
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
     background-color: #777;
-    border-color: #fff
+    border-color: #fff;
 }
+
+.login-container {
+    padding-left:30px;
+    margin-top:130px;
+    text-align:start;
+    background-color: #9DC88D;
+    border-radius: 2rem;
+    box-shadow: 3px 6px 2px 2px #000000;
+}
+
+#btn-login {
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+    height: 40px;
+    width: 25%;
+}
+
+    #btn-login:hover {
+        background-color: #4D774E;
+        color:white;
+    }
+
+

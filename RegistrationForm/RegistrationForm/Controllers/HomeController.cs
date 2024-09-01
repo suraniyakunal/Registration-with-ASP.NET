@@ -1,8 +1,11 @@
-﻿using System;
+﻿using RegistrationForm.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 
 namespace RegistrationForm.Controllers
 {
@@ -12,6 +15,7 @@ namespace RegistrationForm.Controllers
         {
             return View();
         }
+
 
         public ActionResult About()
         {
@@ -26,5 +30,6 @@ namespace RegistrationForm.Controllers
 
             return View();
         }
+
     }
 }
